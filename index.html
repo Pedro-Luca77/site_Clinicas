@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica OdontoPrime — Atendimento odontológico humanizado com tecnologia moderna. Agende sua avaliação.">
+  <title>Clínica OdontoPrime | Odontologia Humanizada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo" aria-label="Clínica OdontoPrime - Início">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="#0D9488"/>
+          <path d="M20 8c-4 0-7 3.5-7 8 0 3 1.5 5.5 3.5 7.2V28c0 1.1.9 2 2 2h3c1.1 0 2-.9 2-2v-4.8c2-1.7 3.5-4.2 3.5-7.2 0-4.5-3-8-7-8z" fill="#fff"/>
+        </svg>
+        <span class="logo-text">Odonto<span>Prime</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#tratamentos" class="nav-link">Tratamentos</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#localizacao" class="nav-link">Localização</a></li>
+        </ul>
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Cl%C3%ADnica%20OdontoPrime." class="btn btn-primary btn-nav" target="_blank" rel="noopener noreferrer">
+          Agendar avaliação
+        </a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 class="hero-title">Sorrisos saudáveis e atendimento humanizado no coração do bairro.</h1>
+          <p class="hero-subtitle">Tecnologia moderna e profissionais qualificados para cuidar da sua saúde bucal.</p>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Cl%C3%ADnica%20OdontoPrime." class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Agendar avaliação pelo WhatsApp
+          </a>
+        </div>
+        <div class="hero-image-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80" 
+            alt="Consultório odontológico moderno e iluminado da Clínica OdontoPrime" 
+            class="hero-image"
+            width="600"
+            height="450"
+            loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- Tratamentos -->
+    <section class="section treatments" id="tratamentos">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Tratamentos</h2>
+          <p class="section-desc">Cuidamos da sua saúde bucal com foco em prevenção, conforto e acompanhamento personalizado.</p>
+        </div>
+        <div class="cards-grid treatments-grid">
+          <article class="card treatment-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6c-6 0-11 5-11 12 0 5 3 9 7 11v7c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2v-7c4-2 7-6 7-11 0-7-5-12-11-12z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 22h12M20 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="card-title">Limpeza e Prevenção</h3>
+            <p class="card-text">Avaliação clínica, profilaxia e orientações de higiene oral para manutenção da saúde bucal ao longo do tempo.</p>
+          </article>
+
+          <article class="card treatment-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2.5"/><path d="M24 14v20M14 24h20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M18 18l12 12M30 18L18 30" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".4"/></svg>
+            </div>
+            <h3 class="card-title">Clareamento Dental</h3>
+            <p class="card-text">Procedimentos de clareamento realizados sob supervisão profissional, com avaliação prévia da condição dos dentes e gengivas.</p>
+          </article>
+
+          <article class="card treatment-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 32c0-4 3-8 8-8s8 4 8 8v4H16v-4z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M20 20c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><rect x="14" y="34" width="20" height="6" rx="1.5" stroke="currentColor" stroke-width="2.5"/></svg>
+            </div>
+            <h3 class="card-title">Implantes e Próteses</h3>
+            <p class="card-text">Planejamento e acompanhamento de reabilitações com implantes e próteses, sempre com avaliação individualizada de cada caso.</p>
+          </article>
+
+          <article class="card treatment-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 20c0-6 5-10 12-10s12 4 12 10c0 4-2 7-5 9l-7 5-7-5c-3-2-5-5-5-9z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M18 22h12M20 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="card-title">Ortodontia</h3>
+            <p class="card-text">Acompanhamento ortodôntico com aparelhos convencionais ou alinhadores, conforme indicação clínica e objetivos do paciente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="section differentials" id="diferenciais">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Nossos diferenciais</h2>
+          <p class="section-desc">O que valorizamos no dia a dia do atendimento.</p>
+        </div>
+        <div class="cards-grid differentials-grid">
+          <article class="card diff-card">
+            <div class="diff-number">01</div>
+            <h3 class="card-title">Atendimento humanizado</h3>
+            <p class="card-text">Escuta atenta, clareza nas orientações e respeito ao ritmo e às necessidades de cada pessoa.</p>
+          </article>
+          <article class="card diff-card">
+            <div class="diff-number">02</div>
+            <h3 class="card-title">Estrutura moderna</h3>
+            <p class="card-text">Ambiente organizado, equipamentos atualizados e protocolos de biossegurança em todas as etapas.</p>
+          </article>
+          <article class="card diff-card">
+            <div class="diff-number">03</div>
+            <h3 class="card-title">Facilidade de agendamento</h3>
+            <p class="card-text">Canal direto pelo WhatsApp para tirar dúvidas e marcar avaliação de forma simples e rápida.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section about" id="sobre">
+      <div class="container about-inner">
+        <div class="about-content">
+          <h2 class="section-title">Sobre a Clínica OdontoPrime</h2>
+          <p>A Clínica OdontoPrime é um espaço fictício criado para demonstrar um modelo de site institucional moderno e em conformidade com as orientações de publicidade odontológica no Brasil.</p>
+          <p>Nosso foco é oferecer informações claras sobre saúde bucal, apresentar a estrutura de atendimento e facilitar o primeiro contato do paciente com a clínica.</p>
+          <p>Todo o conteúdo prioriza linguagem informativa, sem promessas de resultados ou apelos comerciais incompatíveis com as normas do Conselho Federal de Odontologia.</p>
+          <ul class="about-list">
+            <li>Atendimento com profissionais inscritos no CRO</li>
+            <li>Protocolos de biossegurança</li>
+            <li>Orientação preventiva e acompanhamento</li>
+          </ul>
+        </div>
+        <div class="about-highlight">
+          <div class="highlight-box">
+            <h3>Responsável Técnico</h3>
+            <p class="rt-name">Dr. Carlos Eduardo Mendes</p>
+            <p class="rt-cro">CRO-SP 45.678</p>
+            <p class="rt-note">Clínica fictícia — dados ilustrativos para fins de portfólio</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos (estrutura preparada, sem depoimentos fabricados) -->
+    <section class="section testimonials" id="depoimentos">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Avaliações</h2>
+          <p class="section-desc">Espaço reservado para avaliações reais de pacientes, sempre com autorização prévia e em conformidade com as normas éticas.</p>
+        </div>
+        <div class="testimonials-placeholder">
+          <div class="placeholder-card">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <p>As avaliações de pacientes reais, quando autorizadas, poderão ser exibidas aqui ou direcionadas ao perfil da clínica no Google.</p>
+            <p class="placeholder-note">Em respeito às regras de publicidade odontológica, não utilizamos depoimentos fictícios ou sem consentimento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Localização -->
+    <section class="section location" id="localizacao">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Localização</h2>
+          <p class="section-desc">Venha nos conhecer. Estamos no coração do bairro, com fácil acesso.</p>
+        </div>
+        <div class="location-grid">
+          <div class="location-info">
+            <div class="info-item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <strong>Endereço</strong>
+                <p>Rua das Acácias, 245 — Sala 12<br>Bairro Jardim Primavera<br>São Paulo — SP, 04567-890</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              <div>
+                <strong>Telefone / WhatsApp</strong>
+                <p><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">(11) 99999-9999</a></p>
+              </div>
+            </div>
+            <div class="info-item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <div>
+                <strong>Horário de atendimento</strong>
+                <p>Segunda a Sexta: 8h às 18h<br>Sábados: 8h às 12h</p>
+              </div>
+            </div>
+            <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Cl%C3%ADnica%20OdontoPrime." class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              Agendar pelo WhatsApp
+            </a>
+          </div>
+          <div class="location-map">
+            <div class="map-placeholder" role="img" aria-label="Mapa ilustrativo da localização da clínica">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <p>Mapa interativo pode ser inserido aqui<br>(Google Maps ou similar)</p>
+              <span class="map-note">Endereço fictício para demonstração</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo logo-footer">
+          <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="20" r="18" fill="#0D9488"/>
+            <path d="M20 8c-4 0-7 3.5-7 8 0 3 1.5 5.5 3.5 7.2V28c0 1.1.9 2 2 2h3c1.1 0 2-.9 2-2v-4.8c2-1.7 3.5-4.2 3.5-7.2 0-4.5-3-8-7-8z" fill="#fff"/>
+          </svg>
+          <span class="logo-text">Odonto<span>Prime</span></span>
+        </a>
+        <p class="footer-desc">Clínica odontológica fictícia desenvolvida como modelo de site profissional e em conformidade com as orientações de publicidade do CFO.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </div>
+      <div class="footer-legal">
+        <h4>Informações legais</h4>
+        <p><strong>Clínica OdontoPrime</strong> (fictícia)</p>
+        <p>Responsável Técnico: Dr. Carlos Eduardo Mendes</p>
+        <p>CRO-SP 45.678</p>
+        <p class="footer-note">Este site é um projeto de portfólio. Todos os dados são ilustrativos e não correspondem a uma clínica real.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Clínica OdontoPrime — Modelo de site para portfólio. Todos os direitos reservados ao desenvolvedor.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Cl%C3%ADnica%20OdontoPrime." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Conversar no WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
